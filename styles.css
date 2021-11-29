@@ -1,0 +1,185 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 375px;
+  height: 92px;
+  background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  color: white;
+  height: 24px;
+  font-family: Roboto, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.name p {
+  height: 24px;
+  width: 187px;
+}
+
+.burger {
+  height: 24px;
+  width: 20px;
+  margin-left: 40px;
+  top: 8px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border-radius: 0;
+  align-self: center;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
+.burger a {
+  background-color: white;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+}
+
+.main {
+  border-top: 1px solid slateblue;
+  color: white;
+  background-color: #151515;
+  width: 375px;
+  height: 610px;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.head {
+  margin-left: 20px;
+}
+
+.content {
+  margin-left: 20px;
+}
+
+h1 {
+  border-left: 20px;
+  color: #ff6b00;
+  height: 124px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  font-family: Crete Round, serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  text-align: left;
+}
+
+.pretext {
+  height: 37px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+  border-radius: nullpx;
+  font-family: Roboto, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.text {
+  height: 100px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+  font-family: Poppins, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+nav {
+  height: 49px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bg {
+  width: 30px;
+  height: 20px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  height: 26px;
+}
+
+.github {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}
+
+.vector-one {
+  height: 20px;
+  width: 5px;
+  border-radius: 0;
+}
+
+.vector-two {
+  height: 20px;
+  width: 13px;
+  border-radius: 0;
+}
+
+.angel {
+  height: 20px;
+  width: 20px;
+  left: 40px;
+  top: 435px;
+  padding-right: 8px;
+}
+
+.twitter {
+  height: 20px;
+  width: 20px;
+  padding-right: 8px;
+}
+
+.medium {
+  height: 20px;
+  width: 20px;
+  padding-right: 8px;
+}
+
+.bottom {
+  height: 161.78159841896664px;
+  width: 191.56038359027835px;
+  float: left;
+}
