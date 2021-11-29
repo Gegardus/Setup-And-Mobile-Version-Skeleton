@@ -34,7 +34,6 @@ a {
   height: 24px;
   width: 20px;
   margin-left: 40px;
-  top: 8px;
   margin-right: 5px;
   margin-bottom: 15px;
   border-radius: 0;
@@ -91,7 +90,6 @@ h1 {
   width: 327px;
   left: 24px;
   top: 256px;
-  border-radius: nullpx;
   font-family: Roboto, serif;
   font-size: 24px;
   font-style: normal;
