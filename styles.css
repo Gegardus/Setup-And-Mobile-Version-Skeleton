@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@100&family=Roboto&display=swap");
+
 a {
   text-decoration: none;
 }
@@ -5,13 +7,13 @@ a {
 .header {
   width: 375px;
   height: 92px;
-  background-color: #303030;
+  background-color: #3c3a39;
   display: flex;
   justify-content: space-between;
 }
 
 .name {
-  color: white;
+  color: #ffffff;
   height: 24px;
   font-family: Roboto, serif;
   font-size: 18px;
@@ -52,7 +54,7 @@ a {
 .main {
   border-top: 1px solid slateblue;
   color: white;
-  background-color: #151515;
+  background-color: #1c1a19;
   width: 375px;
   height: 610px;
 }
@@ -86,6 +88,7 @@ h1 {
 }
 
 .pretext {
+  color: #fff5e1;
   height: 37px;
   width: 327px;
   left: 24px;
@@ -93,13 +96,14 @@ h1 {
   font-family: Roboto, serif;
   font-size: 24px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 32px;
   letter-spacing: 0;
   text-align: left;
 }
 
 .text {
+  color: #ffffff;
   height: 100px;
   width: 327px;
   left: 24px;
@@ -113,7 +117,7 @@ h1 {
   text-align: left;
 }
 
-nav {
+.navigator {
   height: 49px;
   width: 327px;
   left: 24px;
@@ -126,16 +130,15 @@ ul {
   list-style-type: none;
 }
 
-.bg {
-  width: 30px;
-  height: 20px;
-}
-
 #menu {
   display: flex;
   flex-direction: row;
   width: 170px;
   height: 26px;
+}
+
+.height {
+  height: 20px;
 }
 
 .github {
@@ -144,20 +147,21 @@ ul {
   padding-right: 10px;
 }
 
+.bg {
+  width: 30px;
+}
+
 .vector-one {
-  height: 20px;
   width: 5px;
   border-radius: 0;
 }
 
 .vector-two {
-  height: 20px;
   width: 13px;
   border-radius: 0;
 }
 
 .angel {
-  height: 20px;
   width: 20px;
   left: 40px;
   top: 435px;
@@ -165,13 +169,11 @@ ul {
 }
 
 .twitter {
-  height: 20px;
   width: 20px;
   padding-right: 8px;
 }
 
 .medium {
-  height: 20px;
   width: 20px;
   padding-right: 8px;
 }
