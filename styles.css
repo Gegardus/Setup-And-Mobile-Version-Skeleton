@@ -6,15 +6,54 @@ a {
 
 .header {
   width: 375px;
-  height: 92px;
+  height: 72px;
   background-color: #3c3a39;
   display: flex;
+  flex-direction: column;
+}
+
+.scoreboard {
+  height: 16px;
+  width: 375px;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  top: 0;
+  left: 0;
+}
+
+.watch {
+  border-top: 40px;
+  border-right: 40px;
+  height: 16px;
+  width: 30px;
+  top: 8px;
+  left: 30px;
+}
+
+.board {
+  border-top: 20px;
+  height: 16px;
+  width: 80px;
+  left: 0px;
+  top: 3px;
+  border-radius: 0;
+  top: 8px;
+  right: 5px;
+}
+
+.presentation {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
 }
 
 .name {
   color: #fff;
-  height: 24px;
+  height: 26px;
   font-family: Roboto, serif;
   font-size: 18px;
   font-style: normal;
@@ -22,14 +61,21 @@ a {
   line-height: 24px;
   letter-spacing: 0;
   text-align: center;
-  position: relative;
-  top: 20px;
+  top: 0;
   left: 10px;
 }
 
 .name p {
   height: 24px;
   width: 187px;
+}
+
+.scoreboard,
+.watch,
+.board,
+.presentation,
+.name {
+  position: relative;
 }
 
 .burger {
@@ -41,8 +87,8 @@ a {
   border-radius: 0;
   align-self: center;
   position: relative;
-  top: 10px;
-  right: 10px;
+  top: 18px;
+  right: 25px;
 }
 
 .burger a {
@@ -53,22 +99,29 @@ a {
 
 .main {
   border-top: 1px solid slateblue;
-  color: white;
-  background-color: #1c1a19;
+  background: #1c1a19 url(assets/images/my-background-mobile.svg) 245px 340px
+    no-repeat;
   width: 375px;
-  height: 610px;
+  height: 621px;
+}
+
+.title,
+.head,
+.content {
+  margin-left: 20px;
 }
 
 .title {
-  margin-left: 20px;
+  padding-top: 75px;
+  height: 170px;
 }
 
 .head {
-  margin-left: 20px;
+  height: 45px;
 }
 
 .content {
-  margin-left: 20px;
+  height: 135px;
 }
 
 h1 {
@@ -104,7 +157,7 @@ h1 {
 
 .text {
   color: #fff;
-  height: 100px;
+  height: 120px;
   width: 327px;
   left: 24px;
   top: 256px;
@@ -176,10 +229,4 @@ ul {
 .medium {
   width: 20px;
   padding-right: 8px;
-}
-
-.bottom {
-  height: 161.78159841896664px;
-  width: 191.56038359027835px;
-  float: left;
 }
