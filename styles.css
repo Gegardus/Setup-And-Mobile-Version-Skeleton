@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@100&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 375px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 72px;
+  background-color: #3c3a39;
+  display: flex;
+  flex-direction: column;
+}
+
+.scoreboard {
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+}
+
+.watch {
+  border-top: 40px;
+  border-right: 40px;
+  height: 16px;
+  width: 30px;
+  top: 8px;
+  left: 30px;
+}
+
+.board {
+  border-top: 20px;
+  height: 16px;
+  width: 80px;
+  left: 0;
+  border-radius: 0;
+  top: 8px;
+  right: 5px;
+}
+
+.presentation {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+}
+
+.name {
+  color: #fff;
+  height: 26px;
+  font-family: Roboto, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  top: 0;
+  left: 10px;
+}
+
+.name p {
+  height: 24px;
+  width: 187px;
+}
+
+.scoreboard,
+.watch,
+.board,
+.presentation,
+.name {
+  position: relative;
+}
+
+.burger {
+  height: 24px;
+  width: 20px;
+  margin-left: 40px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border-radius: 0;
+  align-self: center;
+  position: relative;
+  top: 18px;
+  right: 25px;
+}
+
+.burger a {
+  background-color: white;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+}
+
+.main {
+  border-top: 1px solid slateblue;
+  background: #1c1a19 url(assets/images/my-background-mobile.svg) 272px 340px no-repeat;
+  background-size: 28% 48%;
+  height: 640px;
+}
+
+.title,
+.head,
+.content {
+  margin-left: 20px;
+}
+
+.title {
+  padding-top: 75px;
+  height: 170px;
+}
+
+.head {
+  height: 45px;
+}
+
+.content {
+  height: 135px;
+}
+
+h1 {
+  border-left: 20px;
+  color: #ff6b00;
+  height: 124px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  font-family: Crete Round, serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  text-align: left;
+}
+
+.pretext {
+  color: #fff5e1;
+  height: 37px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+  font-family: Roboto, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.text {
+  color: #fff;
+  height: 120px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+  font-family: Poppins, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.navigator {
+  height: 49px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  height: 26px;
+}
+
+.height {
+  height: 20px;
+}
+
+.github {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}
+
+.bg {
+  width: 30px;
+}
+
+.vector-one {
+  width: 5px;
+  border-radius: 0;
+}
+
+.vector-two {
+  width: 13px;
+  border-radius: 0;
+}
+
+.angel {
+  width: 20px;
+  left: 40px;
+  top: 435px;
+  padding-right: 8px;
+}
+
+.twitter {
+  width: 20px;
+  padding-right: 8px;
+}
+
+.medium {
+  width: 20px;
+  padding-right: 8px;
+}

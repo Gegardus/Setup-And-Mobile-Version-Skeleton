@@ -15,7 +15,7 @@ Setup-And-Mobile-Version-Skeleton
 
 ## Getting Started
 
-{}
+https://gegardus.github.io/Setup-And-Mobile-Version-Skeleton/
 
 ## Author
 
@@ -26,4 +26,3 @@ Vahan Khachvankian
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
