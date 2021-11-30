@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@100&family=Roboto&display=swap");
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
 a {
   text-decoration: none;
 }
 
 .header {
-  width: 375px;
+  /* width: 375px; */
   height: 72px;
   background-color: #3c3a39;
   display: flex;
@@ -35,8 +41,7 @@ a {
   border-top: 20px;
   height: 16px;
   width: 80px;
-  left: 0px;
-  top: 3px;
+  left: 0;  
   border-radius: 0;
   top: 8px;
   right: 5px;
@@ -99,9 +104,8 @@ a {
 
 .main {
   border-top: 1px solid slateblue;
-  background: #1c1a19 url(assets/images/my-background-mobile.svg) 245px 340px
-    no-repeat;
-  width: 375px;
+  background: #1c1a19 url(assets/images/my-background-mobile.svg) 272px 340px no-repeat;
+  /* width: 375px; */
   height: 621px;
 }
 
